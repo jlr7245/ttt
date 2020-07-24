@@ -1,0 +1,23 @@
+#ttt-board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+}
+
+.game-tile {
+  height: 200px;
+  width: 200px;
+  border: 3px solid black;
+  font-size: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.turn-indicator {
+  font-size: 3em;
+  padding: 20px;
+  color: green;
+}
+
